@@ -28,7 +28,7 @@ public class TimeRecorder {
 		Scanner myScanner = new Scanner(System.in);
 		
 		System.out.print("How many employees do you want" +
-								"to process for their work time? ");
+								" to process for their work time? ");
 		
 		int numOfEmployees = myScanner.nextInt();
 		
