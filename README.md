@@ -1,3 +1,1 @@
 # Employee Time Record
-
-Hello
