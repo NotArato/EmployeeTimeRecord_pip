@@ -18,7 +18,7 @@ public class TimeRecorder {	// class to record work time for each employee for e
 	private int[] dayHours = new int[WeekDays.values().length];
 	private int[] weekHours;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {	// main method to run the program
 		
 		TimeRecorder myTimeRecoder = new TimeRecorder();
 		
