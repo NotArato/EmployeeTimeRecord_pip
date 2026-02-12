@@ -1,16 +1,16 @@
 package edu.handong.csee.java.lecture.multidimensionalarray;
 
+/*	
+
+* This program records work time for each employee for each weekday and computes total work time per weekday and per employee.
+* The program uses a two-dimensional array to store work time data for each employee for each weekday and uses an enum to represent the weekdays.
+* The program also uses a method to add spaces to make the output look better.
+
+*/
+
 import java.util.Scanner;
 
- /*	
- 
- * This program records work time for each employee for each weekday and computes total work time per weekday and per employee.
- * The program uses a two-dimensional array to store work time data for each employee for each weekday and uses an enum to represent the weekdays.
- * The program also uses a method to add spaces to make the output look better.
- 
- */
-
-public class TimeRecorder {
+public class TimeRecorder {	// class to record work time for each employee for each weekday and compute total work time per weekday and per employee
 	
 	private final int NUM_OF_WORK_DAYS = 5; // An employee works for five days from Monday to Friday 
 	private int[][] hours;
